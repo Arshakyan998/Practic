@@ -50,7 +50,6 @@ function PageById() {
                         <h1>COMMENTS</h1>
                         {
                                 comments.map(element=>{
-                                        console.log(element);
                          return  <div style={{border:"2px solid red",padding:"2px"}}><h1>{element.id}. {element.name} </h1>
                                        <h3>body:{element.body}</h3>
                                        <h3>email:{element.email}</h3>

@@ -3,7 +3,6 @@ import React from "react";
 function useLazyLoad(isLoaded,showBlock,setPage,limit,page,filteredPostsLength) {
         let obsorver=React.useRef(null)
 
-        console.log(filteredPostsLength);
 
   React.useMemo(()=>{
         if(isLoaded) return
