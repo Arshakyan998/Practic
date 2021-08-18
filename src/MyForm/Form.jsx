@@ -27,7 +27,12 @@ function Form({ userId, addNewPost, isVisible }) {
   const newUser = (e) => {
     e.preventDefault();
     isVisible(false);
-    fetching();
+    if(params.title===""&&params.body===""){
+      return
+    }else{
+          fetching();
+
+    }
   };
 
   const changeVisible = () => {
