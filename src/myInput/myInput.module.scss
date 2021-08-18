@@ -1,0 +1,12 @@
+.main{
+        width: 100%;
+       > input{
+background: none;
+border: 1px solid teal;
+outline: none;
+height: 40px;
+font-size: 25px;
+width: inherit;
+margin-top: 15px;
+        }
+}

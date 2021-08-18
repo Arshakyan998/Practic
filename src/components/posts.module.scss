@@ -1,0 +1,12 @@
+.main{
+        margin: 55px auto;
+        border: 1px solid teal;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_show_remove_block{
+                display: flex;
+                flex-direction: row;
+        }
+}
